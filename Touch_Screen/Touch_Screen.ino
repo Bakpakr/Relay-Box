@@ -1,7 +1,15 @@
 /* This is my Sketch for the Touch Screen interface for the relay box that will be installed in my Jeep
     Robert L. Wardecker
     cna2rn@gmail.com
-    This code is in public domain
+    This code is in public domain. 
+
+Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+NonCommercial — You may not use the material for commercial purposes.
+
+ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. 
+
+No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material. 
 */
 
 #include <SoftwareSerial.h>
