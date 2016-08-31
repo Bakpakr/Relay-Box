@@ -1,6 +1,8 @@
 /* This is my Sketch for the Touch Screen interface for the relay box that will be installed in my Jeep
     Robert L. Wardecker
     cna2rn@gmail.com
+
+    This is the updated sketch to utilize XBee boards to make this wireless.
     
     This code is in public domain. 
 
