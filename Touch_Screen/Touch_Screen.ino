@@ -18,6 +18,8 @@ No warranties are given. The license may not give you all of the permissions nec
 #include <SoftwareSerial.h>
 #include <Nextion.h>
 
+SoftwareSerial mySerial =  SoftwareSerial(2, 3); 
+
 
 
 const int relayaPin = 52;
@@ -42,10 +44,13 @@ void setup() {
   Serial.begin(9600);
   myNextion.init(); // send the initialization commands for Page 0
 
+  mySerial.begin(9600);
+
   pinMode(relayaPin, OUTPUT);
   pinMode(relaybPin, OUTPUT);
   pinMode(relaycPin, OUTPUT);
   pinMode(relaydPin, OUTPUT);
+  pinMode(13, OUTPUT);
 
 }
 
